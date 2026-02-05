@@ -4,8 +4,6 @@ from enum import Enum
 from scipy.special import comb
 
 
-# I created this to learn the concepts in statistics better
-
 class Granularity(Enum):
     ONE_MINUTE = 1
     FIVE_MINUTES = 5
